@@ -26,6 +26,4 @@ grep -v "Country" data/deduplicated_data.csv | sort -t',' -k3 -n | head -n 5 > a
 wc -l data/satelite_temperature_data.csv
 
 ### 8. Extracting Country-Specific Data (Optional)
-grep "YourCountry" data/deduplicated_data.csv > analyzed/country-heat-data.csv
-
-Note: Replace "YourCountry" with the actual country name in the last command.
+grep "Rwanda" data/deduplicated_data.csv > analyzed/country-heat-data.csv
